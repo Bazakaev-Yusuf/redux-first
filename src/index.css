@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+.app{
+   margin: auto;
+   width: 1200px;
+   text-align: center;
+   padding-top: 40px;
+   font-size: 260px;
+   font-weight: bold;
+}
+
+button{
+   display: block;
+   padding: 10px 20px;
+   background-color: #222;
+   color: #fff;
+   cursor: pointer;
+   border: none;
+   border-radius: 10px;
+   font-size: 20px;
+   letter-spacing: 2px;
+}
+
+.btn-block{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
